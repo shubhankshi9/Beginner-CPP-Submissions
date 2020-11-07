@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int salary;
+    int years;
+    int bonus;
+
+    cin>>salary>>years;
+
+    if(years>5){
+            bonus=((salary)*(0.05));
+             cout<<"rupees"<<bonus;
+
+    }
+
+    else{
+        cout<<"BONUS=0";
+    }
+
+}
