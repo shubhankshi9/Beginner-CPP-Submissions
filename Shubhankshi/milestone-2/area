@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+
+float a;
+float b;
+cin>>a>>b;
+ float area;
+
+ area=a*b;
+ int arearec;
+ arearec=int(area);
+ cout<<arearec;
+}
