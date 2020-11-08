@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int ch='a';
+
+
+
+    while(ch<='z'){
+        cout<<char(ch)<<endl;
+        ch=ch+1;
+    }
+}
